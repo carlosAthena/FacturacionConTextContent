@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body class="Body">
+    <article class="Contenedor">
+      <header class="Header">
+        <img class="Header__Logo" src="./img/Logo.png" />
+        <div class="Header__Encabezado">
+          <h1>ATHENA HOLDINGS EL SALVADOR</h1>
+          <h2>AHES, S.A de C.V</h2>
+          <br />
+          <p>
+            Otras Actividades de Tecnología de Información y Servicios de
+            Computadora
+          </p>
+          <p>Servicios de Apoyo a la Enseñanza</p>
+          <br />
+          <p>AV. LA CAPILLA, OFICINA #355, COL. SAN BENITO</p>
+          <p>SAN SALVADOR, EL SALVADOR</p>
+          <p>E-mail: info@athena.sv</p>
+          <p>Tel.: +503 2336-1930</p>
+        </div>
+        <div class="Header__Documento">
+          <h2>FACTURA</h2>
+          <p>21DS00F</p>
+          <br />
+          <p class="ColorRojo">Nº 0059</p>
+          <br />
+          <p>REGISTRO Nº 296020-6</p>
+          <p>NIT.: 0614-061120-104-2</p>
+        </div>
+      </header>
+      <section class="DatosCliente">
+        <input class="Fecha" type="date" />
+      </section>
+
+      <section class="DatosGenerales">
+        <label class="LabelCliente" for="">Cliente: </label>
+        <input class="NombreCliente" type="text" placeholder="Cliente" />
+
+        <section class="DatosGenerales1">
+          <label for="">Dirección: </label>
+          <input type="text" placeholder="Dirección" />
+          <br />
+          <label for="">Municipio: </label>
+          <input type="text" placeholder="Municipio" />
+          <br />
+          <label for="">Departamento: </label>
+          <input type="text" placeholder="Departamento" />
+          <br />
+          <label for="">No. de Nota de Rem. Ant.: </label>
+          <input type="text" placeholder="No. de Nota de Rem. Ant.:" />
+          <br />
+          <label for="">Fecha de Nota de Rem. Ant.: </label>
+          <input type="text" placeholder="Fecha de Nota de Rem. Ant.:" />
+        </section>
+        <section class="DatosGenerales2">
+          <label for="">Registro No.: </label>
+          <input type="text" placeholder="Registro No." />
+          <br />
+          <label for="">Giro: </label>
+          <input type="text" placeholder="Giro" />
+          <br />
+          <label for="">NIT.: </label>
+          <input type="text" placeholder="NIT." />
+          <br />
+          <label for="">Condiciones de Pago: </label>
+          <input type="text" placeholder="Condiciones de Pago:" />
+          <br />
+          <label for="">Venta a Cuenta de: </label>
+          <input type="text" placeholder="Venta a Cuenta de:" />
+        </section>
+      </section>
+      <section class="Tabla">
+        <table class="Tabla__Cuadricula">
+          <thead>
+            <tr>
+              <th>CANTIDAD</th>
+              <th>DESCRIPCIÓN</th>
+              <th>PRECIO UNITARIO</th>
+              <th>VENTAS NO SUJETAS</th>
+              <th>VENTAS EXENTAS</th>
+              <th>VENTAS AFECTAS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td contenteditable="true" class="Cantidad">Cantidad</td>
+              <td contenteditable="true" class="Descripcion">Descripción</td>
+              <td contenteditable="true" class="PrecioUnitario">$00.00</td>
+              <td contenteditable="true" class="VentasNoSujetas">-----</td>
+              <td contenteditable="true" class="VentasExentas">-----</td>
+              <td contenteditable="true" class="VentasAfectas">$00.00</td>
+            </tr>
+            <tr>
+              <td contenteditable="true" class="Cantidad">Cantidad</td>
+              <td contenteditable="true" class="Descripcion">Descripción</td>
+              <td contenteditable="true" class="PrecioUnitario">$00.00</td>
+              <td contenteditable="true" class="VentasNoSujetas">-----</td>
+              <td contenteditable="true" class="VentasExentas">-----</td>
+              <td contenteditable="true" class="VentasAfectas">$00.00</td>
+            </tr>
+            <tr>
+              <td contenteditable="true" class="Cantidad">Cantidad</td>
+              <td contenteditable="true" class="Descripcion">Descripción</td>
+              <td contenteditable="true" class="PrecioUnitario">$00.00</td>
+              <td contenteditable="true" class="VentasNoSujetas">-----</td>
+              <td contenteditable="true" class="VentasExentas">-----</td>
+              <td contenteditable="true" class="VentasAfectas">$00.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="AgregarFila">+</section>
+      <section class="OtrosDatos">
+        <article class="ArticleSon">
+          <p class="Son">SON:</p>
+        </article>
+
+        <section>
+          <article>
+            <h2 class="TituloOtrosDatos">
+              LLENAR SI LA OPERACIÓN ES SUPERIOR O IGUAL A $200.00
+            </h2>
+          </article>
+
+          <section class="OtrosDatos1">
+            <p class="EntregadoPor">ENTREGADO POR</p>
+            <label for="">NOMBRE: </label>
+            <input type="text" placeholder="Nombre" />
+            <br />
+            <label for="">NIT/DUI: </label>
+            <input type="text" placeholder="NIT/DUI:" />
+            <br />
+            <label for="">EXTRANJEROS PASAPORTE DE RESIDENCIA</label>
+            <input type="text" placeholder="Departamento" />
+            <br />
+            <label for="">FIRMA </label>
+            <input type="text" placeholder="FIRMA" />
+            <br />
+          </section>
+
+          <section class="OtrosDatos2">
+            <p class="EntregadoPor">ENTREGADO POR</p>
+            <label for="">NOMBRE: </label>
+            <input type="text" placeholder="Nombre" />
+            <br />
+            <label for="">NIT/DUI: </label>
+            <input type="text" placeholder="NIT/DUI:" />
+            <br />
+            <label for="">EXTRANJEROS PASAPORTE DE RESIDENCIA</label>
+            <input type="text" placeholder="Departamento" />
+            <br />
+            <label for="">FIRMA </label>
+            <input type="text" placeholder="FIRMA" />
+            <br />
+          </section>
+        </section>
+      </section>
+      <section class="Totales">
+        <table class="TablaTotales">
+          <!-- <thead>
+          <tr>
+            <th>Sumas</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead> -->
+          <tbody>
+            <tr>
+              <td
+                class="SinBorde"
+                class="TablaTotalesDescripcion"
+                class="Sumas"
+              >
+                Sumas
+              </td>
+              <td class="Resultados">$00.00</td>
+            </tr>
+            <tr>
+              <td
+                class="SinBorde"
+                class="TotalVentasNoSujetas"
+                class="TablaTotalesDescripcion"
+              >
+                Ventas No Sujetas
+              </td>
+              <td class="Resultados">$00.00</td>
+            </tr>
+            <tr>
+              <td
+                class="TotalVentasExentas"
+                class="SinBorde"
+                class="TablaTotalesDescripcion"
+              >
+                Ventas Exentas
+              </td>
+              <td class="Resultados">$00.00</td>
+            </tr>
+            <tr>
+              <td
+                class="SinBorde"
+                class="IvaRetenido"
+                class="TablaTotalesDescripcion"
+              >
+                (-) IVA Retenido
+              </td>
+
+              <td class="Resultados">$00.00</td>
+            </tr>
+            <tr>
+              <td
+                class="SinBorde"
+                class="SubTotal"
+                class="TablaTotalesDescripcion"
+              >
+                Sub-Total
+              </td>
+
+              <td class="Resultados">$00.00</td>
+            </tr>
+            <tr>
+              <td
+                class="SinBorde"
+                class="VentaTotal"
+                class="TablaTotalesDescripcion"
+              >
+                Venta Total
+              </td>
+              <td class="Resultados">$00.00</td>
+            </tr>
+          </tbody>
+
+          <tbody></tbody>
+        </table>
+      </section>
+    </article>
+  </body>
+</html>

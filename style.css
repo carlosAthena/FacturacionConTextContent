@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Gris: rgb(130, 130, 133);
+  --AmarilloAthena: #eca413;
+  --Rojo: red;
+  --FondoDeCeldas: #f0f0f0;
+}
+
+.Body {
+  background: #d7d6d6;
+}
+
+.Contenedor {
+  width: 80%;
+  height: auto;
+  padding: 50px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 100px;
+  /* margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.Header {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header__Logo {
+  /* width: 33.33%; */
+  height: 120px;
+  display: inline-block;
+  margin-right: 20px;
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+}
+
+.Header__Encabezado {
+  width: 45%;
+  height: 140px;
+  display: inline-block;
+  text-align: center;
+  color: rgb(130, 130, 133);
+  padding: 10px;
+}
+
+h1 {
+  font-size: 1rem;
+  color: black;
+}
+h2 {
+  font-size: 0.8rem;
+  color: black;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+label {
+  font-size: 0.7rem;
+  color: var(--Gris);
+}
+
+.Header__Documento {
+  margin-left: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 15%;
+  border: 2px solid black;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.ColorRojo {
+  color: var(--Rojo);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.DatosCliente {
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+input[type="date"] {
+  text-align: center;
+  color: #c0c0c0;
+}
+
+input[type="text"] {
+  margin: 5px;
+  font-size: 0.6rem;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid #c0c0c0;
+  width: 99%;
+}
+
+:focus {
+  outline: 3px solid var(--AmarilloAthena);
+}
+
+input::placeholder {
+  color: #c0c0c0;
+}
+.Fecha {
+  float: right;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.NombreCliente {
+  display: block;
+}
+
+.DatosGenerales {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #c0c0c0;
+  display: inline-block;
+}
+
+.DatosGenerales1 {
+  width: 49%;
+  height: 100px;
+  border: none;
+  color: #c0c0c0;
+  display: inline-block;
+}
+
+.DatosGenerales2 {
+  width: 49%;
+  height: 100px;
+  align-items: right;
+  display: inline-block;
+}
+
+.LabelCliente {
+}
+
+.Tabla {
+  /* background: greenyellow; */
+  width: 100%;
+  height: 200px;
+}
+
+/* Clases de la tabla  */
+
+.Tabla__Cuadricula {
+  width: 100%;
+  height: 100%;
+  border: 1px sólido #c0c0c0;
+}
+.Tabla__Cuadricula th {
+  border: 1px sólido #c0c0c0;
+  font-size: 0.8rem;
+  background: var(--AmarilloAthena);
+  border-radius: 5%;
+  height: 50px;
+  color: white;
+}
+.Tabla__Cuadricula td {
+  border: 1px solid rgb(190, 186, 186);
+  border-radius: 5%;
+  padding: 0;
+  margin: 0;
+  height: 10px;
+  color: #c0c0c0;
+}
+
+.Cantidad,
+.PrecioUnitario,
+.VentasNoSujetas,
+.VentasExentas,
+.VentasAfectas {
+  width: 10%;
+  font-size: 1rem;
+}
+
+.EncabezadoDeTabla {
+}
+
+.AgregarFila {
+  width: 30px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  background: var(--AmarilloAthena);
+  color: white;
+  margin: 10px;
+  border: 5px solid rgb(219, 218, 218);
+}
+
+/* Clases de la tabla  */
+
+.OtrosDatos {
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.ArticleSon {
+  border: #6d6c6c;
+  margin: 10px;
+}
+
+.TituloOtrosDatos {
+  font-size: 0.8rem;
+  color: var(--Gris);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Son {
+  height: 40px;
+  margin: 15px;
+  font-size: 1rem;
+  color: #c0c0c0;
+}
+.OtrosDatos1 {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  border: none;
+  color: #c0c0c0;
+  font-size: 0.5rem;
+  border: 1px solid pink;
+}
+
+.OtrosDatos2 {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  align-items: right;
+  font-size: 0.5rem;
+  color: #c0c0c0;
+  border: 1px solid yellow;
+}
+
+.EntregadoPor {
+  margin-bottom: 30px;
+}
+
+.Totales {
+  margin-top: 20px;
+  width: 470px;
+  height: auto;
+  display: inline-block;
+  border: 1px solid greenyellow;
+}
+
+/* Tabla Totales */
+
+.TablaTotales {
+  width: 450px;
+  border: 1px solid red;
+}
+.TablaTotales th {
+  padding: 5px;
+  color: #c0c0c0;
+}
+.TablaTotales td {
+  width: 20px;
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+.Sumas,
+.TotalVentasNoSujetas,
+.TotalVentasExentas,
+.IvaRetenido,
+.SubTotal,
+.VentaTotal {
+  font-size: 1rem;
+  width: 40%;
+  text-align: left;
+  border: none;
+  background: var(--AmarilloAthena);
+  color: white;
+}
+
+/* .SinBorde{
+  border: none;
+  border-style: none;
+} */
+
+.Resultados {
+  width: 40px;
+  color: var(--Gris);
+}
+
+.TablaTotalesDescripcion {
+  width: 200px;
+  background: var(--AmarilloAthena);
+  color: white;
+}
+/* Tabla Totales */
+
+/* Inicio de formato de tabla de totales */
+
+.FondoGris {
+  background: red;
+  width: 200px;
+}
+
+/* Fin de formato de tabla de totales */
+
+.Cantidad,
+.Descripcion {
+  text-align: center;
+}
+
+.SinBorde {
+  background: var(--AmarilloAthena);
+  color: white;
+}
